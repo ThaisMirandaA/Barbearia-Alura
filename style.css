@@ -13,6 +13,7 @@ nav {
     position: absolute;
     top: 110px;
     right: 0;
+
 }
 
 nav li {
@@ -33,64 +34,51 @@ nav a:hover{
     text-decoration: underline;
 }
 
-#banner {
-    width: 100%;
-    margin-top: 5px;
+.produtos {
+   width: 940px;
+   margin: 0 auto;
+   padding: 50px 0;
+
 }
 
-.principal{
-	background: #CCCCCC;
-	padding: 50px;
-}
-
-.titulo-centralizado {
-    text-align: center;
-    font-weight: bold;
-    font-size: 25px;
-    margin-bottom: 30px;
-}
-
-p {
-    text-align: center;
-}
-
-.nome-estabelecimento {
-    font-weight: bold;
-}
-
-#missao {
-    font-size: 20px;
-    margin: 20px 0 20px 0;
-    font-style: italic;
-}
-
-.lema {
-    color: red;
-    font-weight: bold;
-}
-
-.beneficios {
-    background-color: white;
-    padding: 20px;
-}
-
-
-.lista {
+.produtos li {
     display: inline-block;
+    text-align: center;
+    width: 30%;
+    padding: 30px 20px;
+    margin: 0 1.5%;
+    box-sizing: border-box;
     vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
+    border: 2px solid black;
+    border-radius: 10px;
 }
 
-.itens {
-    font-style: italic;
-    font-size: 16px;
-    list-style-type: disc;
-    margin-left: 40px;
+.produtos li:hover {
+    border-color:#C78C19;
 }
 
-.imagem-beneficios {
-    width: 60%;
+.produtos li:active {
+    border-color: green;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+.produtos li:hover h2 {
+    font-size: 34px;
+}
+
+.texto-produto {
+    font-size: 18px;
+}
+
+.preco-produto {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
 }
 
 footer {
@@ -103,4 +91,68 @@ footer {
     font-size: 13px;
     color: white;
     margin-top: 20px 0 0;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+} 
+
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background-color: orange;
+    border-radius: 5px;
+    border-style: none;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 1s all;
+}
+
+.enviar:hover {
+    background-color: darkorange;
+    transform: scale(1.2);
+}
+
+.titulo-funcionamento {
+    font-size: 20px;
+}
+
+table {
+    margin: 15px 0 40px;
+}
+
+thead {
+    background-color: #BBBBBB;
+    font-weight: bold;
+}
+
+th, td {
+    font-size: 20px;
+    padding: 8px 15px;
+    border: 1px solid black;
 }
