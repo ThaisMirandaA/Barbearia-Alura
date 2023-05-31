@@ -1,4 +1,4 @@
-<h1 align="center"> Curso Alura - Barbearia </h1>
+<h1 align="center"> Criando a página da Barbearia Alura </h1>
 
 ## Sobre ℹ️
 
